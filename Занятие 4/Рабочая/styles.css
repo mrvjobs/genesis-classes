@@ -1,3 +1,51 @@
+@font-face {
+    font-family: 'Efn-handy';
+    src: url(fonts/efn-handy.otf);
+}
+
+html {
+    font-family:'Exo 2', sans-serif;
+    font-size: 16px;
+}
+
 p {
-    text-align: center
-    }
+    width: 200px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font: 2rem 'Efn-handy';    
+}
+
+h2 {
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font: 1.5rem 'Efn-handy';
+}
+
+div{
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol{
+    text-transform: capitalize;
+}
+table{
+    text-align: center;
+}
+
+th{
+    font-style: italic;
+}
