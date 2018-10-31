@@ -8,52 +8,63 @@
 </head>
 
 <body>
-    <div id="first-block" class="block1">
-        <div class="empty"></div>
-        <span>Добро пожаловать!</span>
+    <div id="first-block" class="block1 block">
+        <ul class="menu">
+            <li>
+                <a href="#first-block">Первая страница</a>
+            </li>
+            <li>
+                <a href="#second-block">Вторая страница</a>
+            </li>
+            <li>
+                <a href="#third-block">Третья страница</a>
+            </li>
+        </ul>    
+            
+        <h2 class="title">Добро пожаловать!</h2>
 
-        <p class="txt">
+        <div class="txt">
             Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Не проектах о букв
             составитель залетают там речью от всех великий переулка! Знаках вдали вопрос подзаголовок ручеек, рукопись
             текст щеке возвращайся диких решила путь последний продолжил не ведущими lorem. Имеет над текста, пустился
             имени страна вдали выйти переписывается несколько заманивший там.
-        </p>
+        </div>
 
-        <a class="header-btn" href="#second-block" class="color">Далее</a>
+        <div class="sub-nav">
+            <a class="nav-link" href="#second-block">Далее</a>  
+        </div>
     </div>
 
-    <div id="second-block" class= "block2">
-        <div class="empty"></div>
-        <div class="table">Таблица для ДЗ №8</div>
-
-        <span class="str">Страница первая</span>
-
-        <p class="txt">
+    <div id="second-block" class= "block2 block">
+        
+        <h2 class="str title">Страница вторая</h2>
+        
+        <div class="txt">
             Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ведущими пустился
             океана послушавшись, скатился безорфографичный коварный за образ рот это своего продолжил. Даже дал всеми
             встретил взобравшись взгляд ipsum пор страна сбить гор лучше. Семантика предложения единственное осталось
             на берегу приставка дороге, текстами безопасную рукописи, силуэт снова даль ручеек! Дорогу обеспечивает
             коварных за по всей меня эта жаренные необходимыми ipsum от всех.
-        </p>
+        </div>
 
-        <a class="header-btn" href="#first-block" class="color1">Назад</a>
-        <span  class="clear">---</span>
-        <a class="header-btn" href="#third-block" class="color1">Далее</a>
+         <div class="sub-nav">
+            <a class="nav-link header-btn color1" href="#first-block">Назад</a>
+            <a class="nav-link header-btn color1" href="#third-block">Далее</a>
+         </div>               
+               
+        <div class="table">Таблица для ДЗ №8</div>
     </div>
 
-    <div id="third-block" class="block3">
-        <div class="empty"></div>
+        <div id="third-block" class="block3 block">
+            <h2 class="title">Страница третья</h2>
+            <div class="image-container">
+                <img alt="Мастер Йода" title="Мастер Йода" src="images/master.png">
+            </div>
 
-        <span>Страница третья</span>
-
-        <p class="txt1">
-            <img alt="Мастер Йода" title="Мастер Йода" src="images/master.png" class="img">
-        </p>
-
-        <a class="header-btn" href="#second-block" class="color2">Назад</a>
-        <span class="clear">---</span>
-        <a class="header-btn" href="#first-block" class="color2">В начало</a>
+        <div class="sub-nav">
+            <a class="nav-link header-btn color2" href="#second-block">Назад</a>
+            <a class="nav-link header-btn color2" href="#first-block">В начало</a>
+        </div>
     </div>
 </body>
-
 </html>
